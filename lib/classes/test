@@ -1,0 +1,61 @@
+int? xWin() {
+    if (getValue(1) == "images/whiteX.png" &&
+        getValue(2) == "images/whiteX.png" &&
+        getValue(3) == "images/whiteX.png") {
+      _theWiner(widget.xPlayerName);
+      xPlayer.updateScore(3);
+      setTurn("images/whiteX.png");
+      return 1;
+    } else if (getValue(4) == "images/whiteX.png" &&
+        getValue(5) == "images/whiteX.png" &&
+        getValue(6) == "images/whiteX.png") {
+      _theWiner(widget.xPlayerName);
+      xPlayer.updateScore(3);
+      setTurn("images/whiteX.png");
+      return 1;
+    } else if (getValue(7) == "images/whiteX.png" &&
+        getValue(8) == "images/whiteX.png" &&
+        getValue(9) == "images/whiteX.png") {
+      _theWiner(widget.xPlayerName);
+      xPlayer.updateScore(3);
+      setTurn("images/whiteX.png");
+      return 1;
+    } else if (getValue(1) == "images/whiteX.png" &&
+        getValue(4) == "images/whiteX.png" &&
+        getValue(7) == "images/whiteX.png") {
+      _theWiner(widget.xPlayerName);
+      xPlayer.updateScore(3);
+      setTurn("images/whiteX.png");
+      return 1;
+    } else if (getValue(2) == "images/whiteX.png" &&
+        getValue(5) == "images/whiteX.png" &&
+        getValue(8) == "images/whiteX.png") {
+      _theWiner(widget.xPlayerName);
+      xPlayer.updateScore(3);
+      setTurn("images/whiteX.png");
+      return 1;
+    } else if (getValue(3) == "images/whiteX.png" &&
+        getValue(6) == "images/whiteX.png" &&
+        getValue(9) == "images/whiteX.png") {
+      _theWiner(widget.xPlayerName);
+      xPlayer.updateScore(3);
+      setTurn("images/whiteX.png");
+      return 1;
+    } else if (getValue(1) == "images/whiteX.png" &&
+        getValue(5) == "images/whiteX.png" &&
+        getValue(9) == "images/whiteX.png") {
+      _theWiner(widget.xPlayerName);
+      xPlayer.updateScore(3);
+      setTurn("images/whiteX.png");
+      return 1;
+    } else if (getValue(3) == "images/whiteX.png" &&
+        getValue(5) == "images/whiteX.png" &&
+        getValue(7) == "images/whiteX.png") {
+      _theWiner(widget.xPlayerName);
+      xPlayer.updateScore(3);
+      setTurn("images/whiteX.png");
+      return 1;
+    } else {
+      return 0;
+    }
+  }
